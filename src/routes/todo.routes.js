@@ -1,3 +1,5 @@
 const express=require('express');
 const router=express.router();
-router.get("/",)
+const getTodos=require("../controllers/todo.controller")
+
+app.get("/",getTodos)
